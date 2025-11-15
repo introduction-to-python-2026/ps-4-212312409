@@ -10,7 +10,7 @@ elements_lst.append(formula[start:end])
             sters = end
         end+=1
     elemnts_lst.append(formula[start:])
-    return elemnts_lst
+    return elements_lst
 
 def split_at_first_digit(formula):
     for char_index, char in
